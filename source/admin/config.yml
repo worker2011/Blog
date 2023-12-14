@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: Blog
+  repo: worker2011/Blog
   branch: main # Branch to update (optional; defaults to master)
 
 site_url: https://leo2011.netlify.app
