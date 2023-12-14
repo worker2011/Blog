@@ -1,7 +1,5 @@
 backend:
-  name: github
-  repo: worker2011/Blog
-  branch: main # Branch to update (optional; defaults to master)
+  name: git-gateway
 
 site_url: https://leo2011.netlify.app
 display_url: https://leo2011.netlify.app
