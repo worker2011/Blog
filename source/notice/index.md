@@ -20,8 +20,9 @@ date: 2024-08-23 10:41:09
 
 [酷ICP备20240072号](https://icp.3v.hk/beian/20240072)
 
+[喵喵ICP备案20240312号](https://nyaicp.xyz/?id=20240312)
+
 【审核中】[萌ICP备20240681号](https://icp.gov.moe/?keyword=20240681)
-【审核中】[喵喵ICP备案20240312号](https://nyaicp.xyz/?id=20240312)
 
 ~~是的，找得到的基本都加了。~~
 
@@ -32,4 +33,15 @@ date: 2024-08-23 10:41:09
 # 组织类
 
 [中文博客列表导航项目](https://zhblogs.ohyee.cc/?tab=blog_list&page=1&tags=&search=leo2011)
+[公益反诈联盟](https://www.gyfzlm.com/fanzha/NO-44256470.html)
+[三年之约](https://three.dns163.cn/website/TYF2732377397272490.html)，证书编号为：TYF2732377397272490。
 
+并给出[公益反诈联盟的证书](https://www.gyfzlm.com/certificate/zhengshu-NO-44256470.html)。
+
+可以注意到目前小站只有 C 级，后续还会继续优化~
+
+# 其它
+
+现在小站支持[爱发电](http://afdian.com/)赞赏等功能啦，后续还会添加支持 MathJax 语法的 giscus 评论系统等一堆功能，自建博客就是好用！
+
+小 L 挺喜欢爱发电这个平台的，~~才不是因为能搞来 RMB。~~

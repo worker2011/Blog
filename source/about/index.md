@@ -1,10 +1,6 @@
 ---
 title: "关于我"
 date: 2024-01-21 17:50:06
-mathjax: true
----
-# [置顶：我的~~多年来只有我一个用户~~的博客](https://cnblogs.com/leo2011)
-
 ---
 
 {% note success %} 

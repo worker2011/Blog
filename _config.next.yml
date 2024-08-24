@@ -275,11 +275,11 @@ tag_icon: false
 # Front-matter variable (nonsupport animation).
 reward_settings:
   # If true, a donate button will be displayed in every article by default.
-  enable: false
-  animation: false
+  enable: true
+  animation: true
 
 reward:
-  #wechatpay: /images/wechatpay.png
+  wechatpay: https://hydro.ac/file/10699/IMG_0962.jpeg
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
@@ -606,7 +606,7 @@ lazyload: true
 # Automatically insert whitespace between CJK and half-width characters.
 # For more information: https://github.com/vinta/pangu.js
 # Server-side plugin: https://github.com/next-theme/hexo-pangu
-pangu: false
+pangu: true
 
 # Prefetch links based on what is in the user's viewport.
 # For more information: https://getquick.link
@@ -749,6 +749,27 @@ utterances:
   issue_term: pathname
   # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
   theme: github-light
+
+giscus:
+  enable: false
+  repo: # Github repository name
+  repo_id: # Github repository id
+  category: # Github discussion category
+  category_id: # Github discussion category id
+  # Available values: pathname | url | title | og:title
+  mapping: pathname
+  # Available values: 0 | 1
+  reactions_enabled: 1
+   # Available values: 0 | 1
+  emit_metadata: 1
+  # Available values: light | light_high_contrast | light_protanopia | light_tritanopia | dark | dark_high_contrast | dark_protanopia | dark_tritanopia | dark_dimmed | preferred_color_scheme | transparent_dark | noborder_light | noborder_dark | noborder_gray | cobalt | purple_dark
+  theme: light
+  # Available values: en | zh-CN
+  lang: zh-CN
+  # Place the comment box above the comments
+  input_position: bottom
+  # Load the comments lazily
+  loading: lazy
 
 # Isso
 # For more information: https://isso-comments.de
@@ -945,3 +966,29 @@ vendors:
 css: css
 js: js
 images: images
+
+# Change title and favicon when window is hidden and visible.
+title_change:
+  enable: true
+
+  # Enabling this feature on non-desktop devices may not be a good choice, but it depends on you.
+  onmobile: true
+
+  # Enable random title or not.
+  # Basically `random: true` means you have several titles to display and `random: false` means you have only one title to display.
+  # When `random: true`, YOU MUST FOLLOW the format which has been commented in two title options below.
+  # When `random: false`, please fill in the same line of the title option, like `title: one title`.
+  random: false
+
+  # Restore the original title after the specified time in milliseconds.
+  timeout: 3000
+
+  # Options when window is hidden.
+  hidden:
+    favicon: /images/g.jpg
+    title: 你不要我了吗QwQ
+
+  # Options when window is visible.
+  visible:
+    favicon: /images/g.jpg
+    title: (*´∇｀*) 欢迎回来！
