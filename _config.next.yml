@@ -104,9 +104,11 @@ menu:
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
-  RSS: /atom.xml/ || fa fa-rss
+  RSS: /atom.xml || fa fa-rss
   guestbook: /guestbook/ || far fa-comment
   notice: /notice/ || fas fa-bullhorn
+  开往: https://www.travellings.cn/go-by-clouds.html || fas fa-train-subway
+  friends: /friends/ || fas fa-user-group 
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -172,6 +174,7 @@ social:
   RSS: /atom.xml || fa fa-rss
   CnBlogs博客园: https://home.cnblogs.com/u/leo2011 || fas fa-blog
   Luogu洛谷: https://www.luogu.com.cn/user/539066|| fab fa-blogger
+  开往: https://www.travellings.cn/go-by-clouds.html || fas fa-train-subway
 
 social_icons:
   enable: true
@@ -185,7 +188,8 @@ links_settings:
   layout: block
 
 links:
-  #Title: https://example.com
+  LTC_Augenstern: https://www.cnblogs.com/Liu-Tao-Chang
+  popcoount: https://www.cnblogs.com/popfront
 
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
@@ -493,7 +497,7 @@ google_site_verification:
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmasters
-bing_site_verification:
+bing_site_verification: 9A81F13A680AD9D2445BFB6E12723140
 
 # Yandex Webmaster tools verification.
 # See: https://webmaster.yandex.ru
@@ -675,14 +679,14 @@ canvas_ribbon:
 # Multiple Comment System Support
 comments:
   # Available values: tabs | buttons
-  style: buttons
+  style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
   active: changyan
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
-  lazyload: false
+  lazyload: true
   # Modify texts or order for any naves, here are some examples.
   nav:
     #disqus:
@@ -751,13 +755,13 @@ utterances:
   theme: github-light
 
 giscus:
-  enable: false
-  repo: # Github repository name
-  repo_id: # Github repository id
-  category: # Github discussion category
-  category_id: # Github discussion category id
+  enable: true
+  repo: worker2011/worker2011.github.io # Github repository name
+  repo_id: R_kgDOLTQ8eg # Github repository id
+  category: Announcements # Github discussion category
+  category_id: DIC_kwDOLTQ8es4Ch6X0 # Github discussion category id
   # Available values: pathname | url | title | og:title
-  mapping: pathname
+  mapping: tite
   # Available values: 0 | 1
   reactions_enabled: 1
    # Available values: 0 | 1
@@ -767,7 +771,7 @@ giscus:
   # Available values: en | zh-CN
   lang: zh-CN
   # Place the comment box above the comments
-  input_position: bottom
+  input_position: top
   # Load the comments lazily
   loading: lazy
 
@@ -780,6 +784,21 @@ twikoo:
   visitor: true
   envId: https://main--leo2011.netlify.app/.netlify/functions/twikoo # 腾讯云环境填 envId；Vercel 环境填地址（https://xxx.vercel.app）
   # region: ap-guangzhou # 环境地域，默认为 ap-shanghai，腾讯云环境填 ap-shanghai 或 ap-guangzhou；Vercel 环境不填
+  
+# Valine
+# For more information: https://valine.js.org, https://github.com/xCss/Valine
+valine:
+  enable: false
+  appId: Ai8OSMXBEf47B8bmZbetoILa-MdYXbMMI # your leancloud application appid
+  appKey: astOalEQIjsJtbMoJ1lBzNgv # your leancloud application appkey
+  serverURLs: https://zippy-gelato-3e0ebc.netlify.app/.netlify/functions/comment # When the custom domain name is enabled, fill it in here
+  placeholder: 说些啥吧…… # comment box placeholder
+  avatar: mm # gravatar style
+  meta: [nick, mail, link] # Custom comment header
+  pageSize: 12 # pagination size
+  visitor: false # leancloud-counter-security is not supported for now. When visitor is set to be true, appid and appkey are recommended to be the same as leancloud_visitors' for counter compatibility. Article reading statistic https://valine.js.org/visitor.html
+  comment_count: true # If false, comment count will only be displayed in post page, not in home page
+  recordIP: true # Whether to record the commenter IP
 
 
 # ---------------------------------------------------------------
