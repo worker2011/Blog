@@ -42,8 +42,6 @@
     "hexo-sliding-spoiler": "^1.2.1",
     "hexo-tag-embed": "^1.0.0",
     "hexo-theme-landscape": "^1.0.0",
-    "hexo-theme-next": "latest",
-    "hexo-theme-pure": "^1.0.2",
     "hexo-theme-redefine": "latest",
     "hexo-word-counter": "^0.2.0",
     "highlight.js": "^11.10.0",
