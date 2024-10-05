@@ -1,1 +1,2 @@
-prebuild/footer.ejs node_modules/hexo-theme-redefine/layout/footer.ejs
+prebuild/spoiler.css node_modules/hexo-sliding-spoiler/assets/spoiler.css
+prebuild/spoiler.css node_modules/hexo-theme-redefine/layout/_partials/footer.ejs

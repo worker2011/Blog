@@ -120,12 +120,15 @@ home_banner:
   title: Leo2011 的博客
   # Home banner subtitle
   subtitle:
-    text: [不要以为你掌握了整个World，因为你只会个 Hello World。, 学习，就是发现自己越来越菜的过程——任宝硕] # subtitle text, array
+    text: 
+      - 不要以为你掌握了整个World，因为你只会个 Hello World。
+      - 学习，就是发现自己越来越菜的过程。——任宝硕
+      - 关于 SPFA，它死了，但它还活着。关于 Dijkstra，它还活着，但它已经死了。 # subtitle text, array
     hitokoto:  # 一言配置
-      enable: true # Whether to enable hitokoto
+      enable: false # Whether to enable hitokoto
       api: https://v1.hitokoto.cn # API URL, can add types, see https://developer.hitokoto.cn/sentence/#%E5%8F%A5%E5%AD%90%E7%B1%BB%E5%9E%8B-%E5%8F%82%E6%95%B0
-    typing_speed: 100 # Typing speed (ms)
-    backing_speed: 80 # Backing speed (ms)
+    typing_speed: 210 # Typing speed (ms)
+    backing_speed: 10 # Backing speed (ms)
     starting_delay: 500 # Start delay (ms)
     backing_delay: 1500 # Backing delay (ms)
     loop: true # Whether to loop
@@ -160,14 +163,15 @@ home_banner:
     links:
       github: https://github.com/worker2011/
       instagram: # your Instagram URL
-      zhihu:  # your ZhiHu URL
+      zhihu:  https://www.zhihu.com/people/leo2011-46
       twitter:  # your twitter URL
-      email: mailto:admin@leo2011.eu.org
+      email: mailto:admin@jimingyu2011@foxmail.com
       # ...... # you can add more
       fa fa-rss: /atom.xml
       fas fa-blog: https://home.cnblogs.com/u/leo2011
       fab fa-blogger: https://www.luogu.com.cn/user/539066
       fas fa-train-subway: https://www.travellings.cn/go-by-clouds.html
+      https://webring.xxiivv.com/icon.black.svg: https://webring.xxiivv.com/leo2011
     # Social links with QRcode drawers
     qrs:
       weixin:  # your Wechat QRcode image URL
@@ -206,9 +210,6 @@ navbar:
     categories: 
       path: /categories
       icon: fa fa-th
-    公告栏: 
-      path: /notice
-      icon: fas fa-bullhorn
     RSS: 
       path: /atom.xml 
       icon: fa fa-rss
@@ -312,7 +313,7 @@ articles:
   author_label: 
     enable: true # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
-    list: [四明狂客]
+    list: [四明狂客, 大气压强]
   # Code block settings
   code_block:
     copy: true # Whether to enable code block copy button
@@ -324,7 +325,7 @@ articles:
   # Table of contents settings
   toc:
     enable: true # Whether to enable TOC
-    max_depth: 3 # TOC depth
+    max_depth: 6 # TOC depth
     number: true # Whether to add number to TOC automatically
     expand: true # Whether to expand TOC
     init_open: true # Open toc by default
@@ -409,7 +410,7 @@ comment:
 # Docs: https://redefine-docs.ohevan.com/footer
 footer:
   # Show website running time
-  runtime: true # show website running time or not
+  runtime: false # show website running time or not
   # Icon in footer, write fontawesome icon code here
   icon: '<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>'
   # The start time of the website, format: YYYY/MM/DD HH:mm:ss
@@ -466,7 +467,7 @@ plugins:
       # .... you can add more audios here
   # Mermaid JS. Requires hexo-filter-mermaid-diagrams (npm i hexo-filter-mermaid-diagrams). See https://mermaid.js.org/
   mermaid:
-    enable: false # enable mermaid or not
+    enable: true # enable mermaid or not
     version: "9.3.0" # default v9.3.0
 # PLUGINS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 

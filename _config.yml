@@ -66,8 +66,12 @@ libs:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator_plus:
-  path: ''
+index_generator:
+  path: ""
   per_page: 12
+  order_by: -date
+  pagination_dir: page
+  layout: ["index", "archive"]
 
 
 # Category & Tag
@@ -97,6 +101,7 @@ pagination_dir: page
 ## include:/exclude: options only apply to the 'source/' folder
 include:
 exclude:
+  - admin
 ignore: 
 
 # Extensions
