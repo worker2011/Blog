@@ -1,5 +1,5 @@
 #!/bin/sh
 while read line
 do
-    cp $line -f
+    cp "$line" -f
 done < prebuild/file
