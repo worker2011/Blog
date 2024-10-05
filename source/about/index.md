@@ -13,6 +13,8 @@ Tips:$\texttt{Winning isn't everything, but wanting it is.}$
 # 无钩子·爆零
 复赛开前心不平，赛场比完忘自形。轻键盘，快闪屏，还是喜提双爆零。
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e9ecaeda-d866-4912-a1d7-74e40c58d102/deploy-status)](https://app.netlify.com/sites/leo2011/deploys)
+
 ------------
 
 该用户的各大OJ账号:
@@ -23,7 +25,7 @@ Tips:$\texttt{Winning isn't everything, but wanting it is.}$
 
 - Open Judge：[http://openjudge.cn/user/1137680/](http://openjudge.cn/user/1137680/)
 
-- 洛谷：就是这个~
+- 洛谷：[https://www.luogu.com/user/539066](https://www.luogu.com/user/539066)
 
 - 一本通在线评测：[http://ybt.ssoier.cn:8088/userinfo.php?name=Leo](http://ybt.ssoier.cn:8088/userinfo.php?name=Leo)
 
