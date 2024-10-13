@@ -1,7 +1,9 @@
 ---
 title: 题解：AT_abc374_c [ABC374C] Separated Lunch
 date: 2024-10-05 21:50:36
-tags: C艹
+tags: 
+- C艹
+- 洛谷精选
 categories: 题解
 ---
 
