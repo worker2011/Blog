@@ -5,6 +5,7 @@ tags: C艹
 categoires:
 - 题解
 - USACO
+thumbnail: /images/P10189.png
 ---
 
 ~~挑战题解区最短代码~~

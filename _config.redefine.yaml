@@ -461,11 +461,11 @@ plugins:
         url: /images/像我这样的人.mp3 # audio url
         cover: http://puui.qpic.cn/vpic_cover/n0551ux81rf/n0551ux81rf_hz.jpg/1280 # audio cover url
         lrc: 
-      # - name: Something Just Like This 
-      #   artist: The Chainsmokers, Coldplay 
-      #   url: https://evan.beee.top/music/Something%20Just%20Like%20This%20-%20The%20Chainsmokers%E3%80%81Coldplay.mp3 
-      #   cover: /images/Something Just Like This.jfif 
-      #   lrc: # audio cover lrc
+      - name: Something Just Like This 
+        artist: The Chainsmokers, Coldplay 
+        url: https://evan.beee.top/music/Something%20Just%20Like%20This%20-%20The%20Chainsmokers%E3%80%81Coldplay.mp3 
+        cover: /images/Something Just Like This.jfif 
+        lrc: # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
 #        url: # audio url

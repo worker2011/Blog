@@ -3,6 +3,7 @@ title: 题解：P8267 [USACO22OPEN] Counting Liars B &  U208878 晴天
 date: 2024-05-25 21:50:30
 tags: C艹
 categories: 题解
+thumbnail: /images/P8267.png
 ---
 
 其实，这个题，只需要最简单的枚举，加上最简单的二分查找即可~

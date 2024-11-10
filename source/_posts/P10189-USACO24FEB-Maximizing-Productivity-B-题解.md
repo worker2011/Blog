@@ -5,6 +5,7 @@ tags: C艹
 categories:
 - 题解
 - USACO
+thumbnail: /images/P10189.png
 ---
 
 先说说暴力做法：

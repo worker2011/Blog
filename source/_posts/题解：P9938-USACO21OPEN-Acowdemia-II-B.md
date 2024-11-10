@@ -3,6 +3,7 @@ title: 题解：P9938 [USACO21OPEN] Acowdemia II B
 date: 2024-08-29 14:51:17
 tags: C艹
 categories: 题解
+thumbnail: /images/P9938.png
 ---
 
 前言：原来的 tj 干了一堆什么建图啊之类的，但其实不要这么复杂。
