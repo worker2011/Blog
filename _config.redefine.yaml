@@ -240,6 +240,7 @@ navbar:
         留言板: /essays
         MBTI 测试: /MBTI
         小空调: /air-conditioner
+        论坛: https://leo2011.flarum.cloud/
   # Navbar search (local search). Requires hexo-generator-searchdb (npm i hexo-generator-searchdb). See https://github.com/theme-next/hexo-generator-searchdb
   search:
     # Whether to enable
@@ -314,7 +315,7 @@ articles:
   author_label: 
     enable: true # Whether to enable
     auto: false # Whether to automatically add author label, e.g. Lv1, Lv2, Lv3...
-    list: [四明狂客, 大气压强]
+    list: [魔怔哥]
   # Code block settings
   code_block:
     copy: true # Whether to enable code block copy button
@@ -339,17 +340,17 @@ articles:
   # Article recommendation. Requires nodejieba (npm install nodejieba). Transplanted from hexo-theme-volantis.
   recommendation:
     # Whether to enable article recommendation
-    enable: false
+    enable: true
     # Article recommendation title
     title: 推荐阅读
     # Max number of articles to display
-    limit: 100
+    limit: 6
     # Max number of articles to display mobile
-    mobile_limit: 5
+    mobile_limit: 3
     # Placeholder image
     placeholder:
     # Skip directory
-    skip_dirs: []
+    skip_dirs: ["/_drafts/", "/_data/"]
 # ARTICLE <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -452,14 +453,19 @@ plugins:
     enable: true # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
-      - name: # audio name
-        artist: # audio artist
-        url: # audio url
-        cover: # audio cover url
-        lrc: # audio cover lrc
+      - name: 像我这样的人 # audio name
+        artist: 毛不易 # audio artist
+        url: /images/像我这样的人.mp3 # audio url
+        cover: http://puui.qpic.cn/vpic_cover/n0551ux81rf/n0551ux81rf_hz.jpg/1280 # audio cover url
+        lrc: 
+      # - name: Something Just Like This 
+      #   artist: The Chainsmokers, Coldplay 
+      #   url: https://evan.beee.top/music/Something%20Just%20Like%20This%20-%20The%20Chainsmokers%E3%80%81Coldplay.mp3 
+      #   cover: /images/Something Just Like This.jfif 
+      #   lrc: # audio cover lrc
 #      - name: # audio name
 #        artist: # audio artist
 #        url: # audio url
@@ -517,7 +523,7 @@ title_change:
   random: false
 
   # Restore the original title after the specified time in milliseconds.
-  timeout: 3000
+  timeout: 2000
 
   # Options when window is hidden.
   hidden:

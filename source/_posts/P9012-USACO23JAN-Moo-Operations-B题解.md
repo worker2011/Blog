@@ -3,6 +3,7 @@ title: P9012 [USACO23JAN] Moo Operations B题解
 date: 2024-01-18 21:33:35
 tags: C艹
 categories: 题解
+thumbnail: /images/USACO.png
 ---
 ~~第 1 道赛场 AC 的题，必须发篇题解记录一下。~~
 

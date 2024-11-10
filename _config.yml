@@ -66,7 +66,6 @@ libs:
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
-index_generator_plus:
 index_generator:
   path: ""
   per_page: 12
@@ -108,6 +107,7 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: redefine
+
 plugins:
   - hexo-algoliasearch
 
@@ -161,7 +161,7 @@ markdown:
     lazyload: false
     prepend_root: false
     post_asset: false
-  inline: trye  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
+  inline: false  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
 
 feed:
   type: atom

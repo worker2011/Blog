@@ -2,6 +2,7 @@
 title: Python环境安装与配置
 date: 2023-12-31 20:22:52
 tags: Python
+thumbnail: https://resources.jetbrains.com.cn/storage/desktop-art/products/pycharm/Wallpapers/1366x768-pycharm2024_1.png?_gl=1*iduzaa*_gcl_au*MjAyNDExMjg4LjE3MzEyMzA5OTg.*_ga*ODMzNzEwMDEzLjE3MzEyMzA5OTg.*_ga_9J976DJZ68*MTczMTIzMDk5OC4xLjEuMTczMTIzMTAyMS4zNy4wLjA.
 ---
 
 # 安装Python
@@ -52,12 +53,12 @@ trusted-host = https://pypi.tuna.tsinghua.edu.cn
 
 这里，`https://pypi.tuna.tsinghua.edu.cn/simple`是清华的镜像站，除了清华的，常用的还有：
 
-|名称| 网站 |
-| :---: | :---: |
+|     名称     |                                               网站                                               |
+| :----------: | :----------------------------------------------------------------------------------------------: |
 | 南科大镜像源 | [https://mirrors.sustech.edu.cn/pypi/web/simple](https://mirrors.sustech.edu.cn/pypi/web/simple) |
-| 阿里云镜像站 | [http://mirrors.aliyun.com/pypi/simple/](http://mirrors.aliyun.com/pypi/simple/) |
-| 豆瓣镜像站 | [http://pypi.douban.com/simple/](http://pypi.douban.com/simple/) |
-| 中科大镜像站 | [ https://pypi.mirrors.ustc.edu.cn/simple](https://pypi.mirrors.ustc.edu.cn/simple)
+| 阿里云镜像站 |         [http://mirrors.aliyun.com/pypi/simple/](http://mirrors.aliyun.com/pypi/simple/)         |
+|  豆瓣镜像站  |                 [http://pypi.douban.com/simple/](http://pypi.douban.com/simple/)                 |
+| 中科大镜像站 |       [ https://pypi.mirrors.ustc.edu.cn/simple](https://pypi.mirrors.ustc.edu.cn/simple)        |
 
 ### Windows用户
 

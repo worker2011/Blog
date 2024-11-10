@@ -1,6 +1,8 @@
 ---
 title: 题解：CF1337A Ichihime and Triangle
 date: 2024-05-13 19:43:11
+thumbnail: /images/CF1337A.png
+
 tags: 
 - C艹
 - 洛谷精选

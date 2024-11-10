@@ -1,6 +1,7 @@
 ---
 title: 关于auto，你需要知道的一切
 date: 2023-09-24 17:35:39
+thumbnail: "/images/屏幕截图 2024-11-10 163249.png"
 tags: C艹
 categories: “你需要知道的一切”系列
 ---
