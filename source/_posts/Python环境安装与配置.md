@@ -2,7 +2,7 @@
 title: Python环境安装与配置
 date: 2023-12-31 20:22:52
 tags: Python
-thumbnail: https://resources.jetbrains.com.cn/storage/desktop-art/products/pycharm/Wallpapers/1366x768-pycharm2024_1.png?_gl=1*iduzaa*_gcl_au*MjAyNDExMjg4LjE3MzEyMzA5OTg.*_ga*ODMzNzEwMDEzLjE3MzEyMzA5OTg.*_ga_9J976DJZ68*MTczMTIzMDk5OC4xLjEuMTczMTIzMTAyMS4zNy4wLjA.
+cover: https://resources.jetbrains.com.cn/storage/desktop-art/products/pycharm/Wallpapers/1366x768-pycharm2024_1.png?_gl=1*iduzaa*_gcl_au*MjAyNDExMjg4LjE3MzEyMzA5OTg.*_ga*ODMzNzEwMDEzLjE3MzEyMzA5OTg.*_ga_9J976DJZ68*MTczMTIzMDk5OC4xLjEuMTczMTIzMTAyMS4zNy4wLjA.
 ---
 
 # 安装Python

@@ -31,6 +31,16 @@ nav:
         - name: 博客
           link: https://leo2011.eu.org/
           icon: https://s2.loli.net/2024/07/23/CqrvSNpBgRtsY4h.jpg
+        - name: 论坛
+          link: https://leo2011.flarum.cloud/
+          icon: https://www.leo2011.eu.org/images/g.jpg
+        - name: 网盘
+          link: https://drive.leo2011.eu.org/
+          icon: https://avatars.githubusercontent.com/u/45693631?v=4
+        - name: 博客后台
+          link: https://admin.leo2011.eu.org/
+          icon: https://unpkg.com/qexo-static@2.4.0/qexo/images/qexo.png
+
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -41,7 +51,7 @@ mourn:
 # Code Blocks (代码相关)
 # --------------------------------------
 
-highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: "mac light" #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: true # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -64,10 +74,10 @@ social:
   Github: https://github.com/anzhiyu-c || anzhiyu-icon-github
   # BiliBili: https://space.bilibili.com/372204786 || anzhiyu-icon-bilibili
   E-mail: mailto:jimingyu2011@foxmail.com || anzhiyu-icon-envelope
-  RSS: /atom.xml || fa-rss
+  RSS: /atom.xml || fas fa-rss
   博客园: https://home.cnblogs.com/u/leo2011 || fas fa-blog
   洛谷: https://www.luogu.com.cn/user/539066 || fab fa-blogger
-  开网: https://www.travellings.cn/go-by-clouds.html || fas fa-train-subway
+  开往: https://www.travellings.cn/go-by-clouds.html || fas fa-train-subway
 
 # 作者卡片 状态
 author_status:
@@ -235,7 +245,7 @@ post_copyright:
   decode: false
   author_href:
   location: 中国·广东省·深圳市·光明区
-  license: CC BY-NC-SA 4.0
+  license: "CC BY-NC-SA 4.0"
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans/
   avatarSinks: true # hover时头像下沉
   copyright_author_img_back:
@@ -363,7 +373,7 @@ twikoo:
   envId: https://dancing-muffin-bb3436.netlify.app/.netlify/functions/twikoo
   region:
   visitor: true
-  option:
+  option: 
 
 # Artalk
 # https://artalk.js.org/guide/frontend/config.html
@@ -394,7 +404,7 @@ giscus:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: false
+chat_btn: true
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
 chat_hide_show: false
@@ -402,8 +412,8 @@ chat_hide_show: false
 # chatra
 # https://chatra.io/
 chatra:
-  enable: false
-  id:
+  enable: true
+  id: 4kmXqwNpEa6qQRbDq
 
 # tidio
 # https://www.tidio.com/
@@ -432,7 +442,7 @@ footer:
   custom_text:
   runtime:
     enable: true
-    launch_time: 15/11/2023 19:30:15 # 网站上线时间
+    launch_time: 11/15/2023 19:30:15 # 网站上线时间
     work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     work_description: 距离月入25k也就还差一个大佬带我~
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
@@ -968,7 +978,7 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: modern
+  style: flat
   icons: true
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).

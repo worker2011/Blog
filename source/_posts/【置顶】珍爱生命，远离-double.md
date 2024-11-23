@@ -3,7 +3,7 @@ title: 【置顶】珍爱生命，远离 double
 date: 2024-08-07 12:59:26
 tags:
 sticky: 9
-thumbnail: /images/double.png
+cover: https://www.leo2011.eu.org/images/double.png
 ---
 
 rt，今日模拟赛时，某只小 L 看到了 T1，发现是个百分数计算裸题，于是飞速写下了下面的代码：
