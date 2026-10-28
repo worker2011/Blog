@@ -7,7 +7,6 @@ image: P10815.png
 published: 2024-07-29 12:56:40
 updated: 2026-10-27 23:04:32
 description: 讲解了如何实现快速读入。
-image: ../images/firefly2.avif
 ---
 
 ~~闲着没事儿水篇 tj~~
@@ -166,7 +165,7 @@ w = read<long long>();
 write<long long>(w);
 ```
 
-一般这么整够了，但是这~~破~~题还是会 TLE 一个点，于是，我们需要更快的方案！
+一般这么整够了，但是这~~破~~ 题还是会 TLE 一个点，于是，我们需要更快的方案！
 
 # 中端版
 
