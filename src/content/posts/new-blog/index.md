@@ -1,6 +1,5 @@
 ---
 title: 关于更新到新版本博客的一点说明
-tags:
 category: 站务
 image: ./images/cover.avif
 published: 2026-10-29 21:35:15
