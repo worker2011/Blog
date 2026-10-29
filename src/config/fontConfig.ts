@@ -76,7 +76,10 @@ export const fontsList: FontDefinition[] = [
     options: {
       variants: [
         {
-          src: ['./public/assets/fonts/LXGWWenKaiGB-Regular.ttf'],
+          src: [
+            './public/assets/fonts/LXGWWenKaiGB-Medium.ttf',
+            './public/assets/fonts/LXGWWenKaiGB-Regular.ttf'
+          ],
         },
       ],
     },
@@ -138,6 +141,20 @@ export const fontsList: FontDefinition[] = [
         },
       ],
     },
+  },
+  {
+    name: 'WenJinMincho',
+    cssVariable: '--font-wenjin',
+    provider: 'local',
+    options: {
+      variants: [{
+        src: [
+          './public/assets/fonts/WenJinMinchoP0-Regular.ttf',
+          './public/assets/fonts/WenJinMinchoP2-Regular.ttf',
+          './public/assets/fonts/WenJinMinchoP3-Regular.ttf',
+        ]
+      }]
+    }
   }
 ];
 
