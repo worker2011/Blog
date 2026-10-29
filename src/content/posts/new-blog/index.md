@@ -4,7 +4,7 @@ category: 站务
 image: ./images/cover.avif
 published: 2026-10-29 21:35:15
 updated: 2026-10-29 21:35:15
-description: 关于博客更新的一点说明、自建钵尔历程得回忆录与未来展望。
+description: 关于博客更新的一点说明、自建博客历程得回忆录与未来展望。
 ---
 
 # 前言
