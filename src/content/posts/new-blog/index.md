@@ -1,10 +1,10 @@
 ---
 title: 关于更新到新版本博客的一点说明
 category: 站务
-image: ./images/cover.avif
+image: ../images/cover.avif
 published: 2026-10-29 21:35:15
 updated: 2026-10-29 21:35:15
-description: 关于博客更新的一点说明、自建博客历程得回忆录与未来展望。
+description: 关于博客更新的一点说明、自建博客历程的回忆录与未来展望。
 ---
 
 # 前言
@@ -38,9 +38,11 @@ Hello and I'm Block_Fish。
 - Python GUI 界面入门
 - 「你需要知道的一切」系列
 
-当然，这些文章现在看来相当老旧了，这次顺带做了一点翻修，不过我并没有修改他们的主题，只改了一些明显的错误和格式，具体准确性、实用性之类的，呃呃……
+当然，这些文章现在看来相当老旧了，这次顺带做了一点翻修，不过我并没有修改他们的主体，只改了一些明显的错误和格式，具体准确性、实用性之类的，呃呃……
 
 # 1.0 开整！Hexo + Next
+
+::github{repo="next-theme/hexo-theme-next"}
 
 那有没有免费的方案呢？[洛谷日报](https://shwstone.cn/2022/07/26/hexo-next%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/)。
 
@@ -56,15 +58,21 @@ Hello and I'm Block_Fish。
 不过相对之下博客园是晚一些的。
 :::
 
-后来因为太弱了，还要平衡文化课的原因，暂时抛弃了博客，有些文章也因此丢失（例如显存的「你需要知道的一切」系列其实是这一时期的光速重写版本，其质量可见一斑）。本 Blog 建立日期，$2023$ 年 $11$ 月 $25$ 日，也就从此算起。
+后来因为太弱了，还要平衡文化课的原因，暂时抛弃了博客，有些文章也因此丢失（例如现存的「你需要知道的一切」系列其实是这一时期的光速重写版本，其质量可见一斑）。本 Blog 建立日期，$2023$ 年 $11$ 月 $25$ 日，也就从此算起。
 
 这里，ABC 串讲系列就是我当时为了测试网站、丰富内容所作的。
 
+当时的文章大概相当于：“模拟；模拟即可；还是模拟；”，然后 $3$ 篇代码，讲完了。没错这就是最最最早期的 ABC 串讲系列。~~可以看出是水沝淼㵘了。~~
+
 # 1.1 Hexo + Next（重制）
+
+::github{repo="next-theme/hexo-theme-next"}
 
 后来呢，我又回归了 Hexo + Next。不过 Next 虽然提供了 4 款主题，但我个人都觉得不过好看（我虽然美术不好，但还是比较颜控的，比较喜欢绚丽的色彩、动画，当然，要以不影响阅读为前提，就像如果你认为目前的樱花动效太烦的话可以设置关掉）。
 
 # 2.0 Hexo + Redefine
+
+::github{repo="evannotfound/hexo-theme-redefine"}
 
 当时正是 xxs 的我（带不带引申义都对）比较迷恋「虚拟备案」这种东西（~~因为搞不了真的~~），加入了一大堆类似的网站，不过如您所见，他们运营的大部分没我的网站久。至于活下来的，多是像 [开往 Travellings](https://travellings.cn/)、[萌国 ICP 备案](https://icp.gov.moe/) 这样经营了多年的高质量、高口碑老牌项目了。
 
@@ -82,6 +90,8 @@ Hello and I'm Block_Fish。
 
 # 3.0 Hexo + Anzhiyu（腰斩）
 
+::github{repo="anzhiyu-c/hexo-theme-anzhiyu"}
+
 安知鱼主题应该是 Hexo 最响亮、最知名的主题（之一）了吧。好看、简洁、功能强大。
 
 但是配置过于复杂了，有很多需要跨文件联动的功能。我做不到。
@@ -90,15 +100,23 @@ Hello and I'm Block_Fish。
 
 # 4.0 Astro + Fuwari（被 pass）
 
+::github{repo="saicaca/fuwari"}
+
 是的起因又是一篇[洛谷文章](https://www.luogu.com.cn/article/dxovmb51)。~~你谷上大分。~~
 
 这个主题同样符合我对“美观”和“简约”的双重定义，于是我决定使用。
 
 # 5.0 Astro + Mizuki（未上线）
 
-小破站上认识了 Fuwari 的升级版，反正 Fuwari 还没上线就先迁了。
+::github{repo="LyraVoid/Mizuki"}
+
+::github{repo="LyraVoid/Shirone"}
+
+小破站上认识了 Fuwari 的升级版（现在已经重构成了 [Shirone](https://github.com/LyraVoid/Shirone)，反正 Fuwari 还没上线就先迁了。
 
 # 6.0 Astro + Firefly（现在）
+
+::github{repo="CuteLeaf/Firefly"}
 
 终于到这儿了！（激动）。
 

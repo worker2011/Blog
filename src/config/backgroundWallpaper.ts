@@ -48,10 +48,6 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
       'assets/images/DesktopWallpaper/d5.avif',
       'assets/images/DesktopWallpaper/d6.avif',
       'assets/images/DesktopWallpaper/background.jpeg',
-      'assets/images/DesktopWallpaper/1.webp',
-      'assets/images/DesktopWallpaper/2.webp',
-      'assets/images/DesktopWallpaper/3.webp',
-      'assets/images/DesktopWallpaper/4.webp',
     ],
     // 移动背景图片（支持单张或多张随机）
     // mobile: "assets/images/MobileWallpaper/m1.avif",
@@ -62,10 +58,6 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
       'assets/images/MobileWallpaper/m4.avif',
       'assets/images/MobileWallpaper/m5.avif',
       'assets/images/MobileWallpaper/m6.avif',
-      'assets/images/MobileWallpaper/1.webp',
-      'assets/images/MobileWallpaper/2.webp',
-      'assets/images/MobileWallpaper/3.webp',
-      'assets/images/MobileWallpaper/4.webp',
     ],
     // 背景视频播放地址
     // 支持单个视频路径（字符串）或多个视频循环（数组，参考上面壁纸配置）

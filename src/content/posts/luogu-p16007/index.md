@@ -2,6 +2,7 @@
 title: 题解：P16007 [CCO 2016 Day 1] Field Trip 郊游
 tags:
   - C艹
+  - 洛谷精选
 category: 题解
 image: firefly3.avif
 published: 2026-10-27 08:20:33

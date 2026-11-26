@@ -1,17 +1,20 @@
 # 关于我 / About Me
 
-你好！我是 **Block_Fush** ，你也可以用中文「积木鱼」来称呼我（这是同学根据我的中文真名结合语音输入法的成果 hh。
+你好！我是 **Block_Fish** ，你也可以用中文「积木鱼」来称呼我（这是同学根据我的中文真名结合语音输入法的成果 hh。
 
-现在是某经济特区实验学校现役蒟蒻 OIer。欢迎交（nue）流（cai）！
+某经济特区实验学校菜鸡 OIer。
 
-[![wakatime](https://wakatime.com/badge/user/1194c2b0-755a-4c64-8815-24c8cef0865a.svg)](https://wakatime.com/@1194c2b0-755a-4c64-8815-24c8cef0865a)
+![算是名片吧](https://cards.jerryz.com.cn/api?img=2&color=21%2C208%2C196%2C1&bg=0%2C0%2C0%2C0&date=2026-11-11&str=%E6%88%91%E7%9A%84%E7%94%9F%E6%97%A5&wechat=JMYLEO&site=https%3A%2F%2Fwww.leo2011.eu.org&phone=17722667723&email=leo2011%40tuta.io&github=worker2011&luogu=Leo2011&codeforces=Leo2011)
 
-![算是名片吧（](
-https://cards.jerryz.com.cn/api?img=2&color=21%2C208%2C196%2C1&bg=0%2C0%2C0%2C0&date=2026-11-11&str=%E6%88%91%E7%9A%84%E7%94%9F%E6%97%A5&wechat=JMYLEO&site=https%3A%2F%2Fwww.leo2011.eu.org&phone=17722667723&email=leo2011%40tuta.io&github=worker2011&luogu=Leo2011&codeforces=Leo2011&counter=Cards)
+![名片 2](https://www.cpoauth.com/api/users/Leo2011/card.svg?lang=zh)
 
-- CodeForces：[![Codeforces Rating of @Leo2011](https://cfrating.baoshuo.dev/rating?username=Leo2011&style=for-the-badge)](https://codeforces.com/profile/Leo2011)
+![wakatime](https://wakatime.com/@1194c2b0-755a-4c64-8815-24c8cef0865a)
 
-- AtCoder：[![AtCoder Rating of @Leo2011](https://atrating.baoshuo.dev/rating?username=Leo2011&style=for-the-badge)](https://atcoder.jp/users/Leo2011)
+~~基本没打过比赛的~~ CF/AT 账号。
+
+CodeForces：[![Codeforces Rating of @Leo2011](https://cfrating.baoshuo.dev/rating?username=Leo2011&style=for-the-badge)](https://codeforces.com/profile/Leo2011)
+
+AtCoder：[![AtCoder Rating of @Leo2011](https://atrating.baoshuo.dev/rating?username=Leo2011&style=for-the-badge)](https://atcoder.jp/users/Leo2011)
 
 ## 🛠️ 关于本站
 

@@ -1,3 +1,4 @@
+这是 Firefly 主题的 README，懒得动了喵，放这儿喵。
 
 <img src="./docs/images/1131.png" width = "350" height = "500" alt="Firefly" align=right />
 
@@ -251,19 +252,19 @@ location: China # 位置
 
 下列指令均需要在项目根目录执行：
 
-| Command                    | Action                                 |
-| :------------------------- | :------------------------------------- |
-| `pnpm install`             | 安装依赖                               |
-| `pnpm dev`                 | 在 `localhost:4321` 启动本地开发服务器 |
-| `pnpm build`               | 构建网站至 `./dist/`                   |
-| `pnpm preview`             | 本地预览已构建的网站                   |
-| `pnpm check`               | 检查代码中的错误                       |
-| `pnpm format`              | 使用 Biome 格式化您的代码              |
-| `pnpm new-post <filename>` | 创建新文章                             |
-| `pnpm new-d <content>`     | 创建一条动态                           |
-| `pnpm new-dynamic <content>` | 创建一条动态（完整命令）              |
-| `pnpm astro ...`           | 执行 `astro add`, `astro check` 等指令 |
-| `pnpm astro --help`        | 显示 Astro CLI 帮助                    |
+| Command                      | Action                                 |
+| :--------------------------- | :------------------------------------- |
+| `pnpm install`               | 安装依赖                               |
+| `pnpm dev`                   | 在 `localhost:4321` 启动本地开发服务器 |
+| `pnpm build`                 | 构建网站至 `./dist/`                   |
+| `pnpm preview`               | 本地预览已构建的网站                   |
+| `pnpm check`                 | 检查代码中的错误                       |
+| `pnpm format`                | 使用 Biome 格式化您的代码              |
+| `pnpm new-post <filename>`   | 创建新文章                             |
+| `pnpm new-d <content>`       | 创建一条动态                           |
+| `pnpm new-dynamic <content>` | 创建一条动态（完整命令）               |
+| `pnpm astro ...`             | 执行 `astro add`, `astro check` 等指令 |
+| `pnpm astro --help`          | 显示 Astro CLI 帮助                    |
 
 ## 🙏 致谢
 

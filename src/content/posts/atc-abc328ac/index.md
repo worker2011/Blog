@@ -12,6 +12,7 @@ permalink: editorial-atabc328abc
 ---
 
 # A Not Too Hard
+
 $N \le 8$ 也是醉了，循环枚举就得了呗？
 遍历一遍数组就可以 AC 了。
 

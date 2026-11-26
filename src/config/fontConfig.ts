@@ -111,7 +111,7 @@ export const fontsList: FontDefinition[] = [
     options: {
       variants: [
         {
-          src: ['./public/assets/fonts/MiSansL3.ttf'],
+          src: ['./public/assets/fonts/MiSans L3.ttf'],
         },
       ],
     },
@@ -147,15 +147,17 @@ export const fontsList: FontDefinition[] = [
     cssVariable: '--font-wenjin',
     provider: 'local',
     options: {
-      variants: [{
-        src: [
-          './public/assets/fonts/WenJinMinchoP0-Regular.ttf',
-          './public/assets/fonts/WenJinMinchoP2-Regular.ttf',
-          './public/assets/fonts/WenJinMinchoP3-Regular.ttf',
-        ]
-      }]
-    }
-  }
+      variants: [
+        {
+          src: [
+            './public/assets/fonts/WenJinMinchoP0-Regular.ttf',
+            './public/assets/fonts/WenJinMinchoP2-Regular.ttf',
+            './public/assets/fonts/WenJinMinchoP3-Regular.ttf',
+          ],
+        },
+      ],
+    },
+  },
 ];
 
 // ─── 字体选择与区域覆盖 ─────────────────────────────────────
@@ -164,7 +166,7 @@ export const fontConfig: FontSelectionConfig = {
   enable: true,
   // 当前选择的字体 CSS 变量名（对应上方 fonts 中的 cssVariable）
   // 使用 "system" 表示系统字体（不加载任何自定义字体）
-  selected: ['--font-lxgw', '--font-misans', 'system'],
+  selected: ['--font-lxgw', '--font-misans', '--font-wenjin', 'system'],
 
   // 各区域独立字体设置（填写上方 fonts 中的 cssVariable，留空则使用全局
   // selected 字体）
