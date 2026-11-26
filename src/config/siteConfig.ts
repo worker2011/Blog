@@ -92,7 +92,7 @@ export const siteConfig: SiteConfig = {
   favicon: [
     {
       // 图标文件路径
-      src: 'assets/images/avatar-next.jpg',
+      src: 'assets/images/avatar-modified.jpg',
       // 可选，指定主题 'light' | 'dark'
       // theme: "light",
       // 可选，图标大小
